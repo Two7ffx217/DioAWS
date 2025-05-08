@@ -1,6 +1,25 @@
-# package directories
-node_modules
-jspm_packages
+# AWS CLI credentials
+.aws/
 
-# Serverless directories
-.serverless
+# Environment files
+.env
+.env.*.local
+
+# Serverless packaging and caches
+.serverless/
+.serverless_plugins/
+
+# Node.js dependencies
+node_modules/
+
+# VS Code settings
+.vscode/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
